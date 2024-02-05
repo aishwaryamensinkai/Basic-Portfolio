@@ -1,0 +1,72 @@
+/* This file is used to add style onto the website */
+
+/* Imports
+   ========================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+:root {
+  font-family: "Roboto", sans-serif;
+}
+
+/* Colors: CSS Hex (Coolors.com) 252930
+   ========================================================================== */
+:root {
+  --yellow: #566553dc;
+  --dark-gray: #616e59e8;
+  --medium-gray: #f0eae3;
+  --light-gray: rgb(210, 204, 195);
+  --clear-yellow: #f0eae3;
+  --light-brown: rgb(64, 60, 55);
+}
+
+/* General ========================================================================== */
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  background-color: var(--yellow);
+}
+
+body {
+  margin: 0;
+  display: block;
+  background: var(--medium-gray) !important;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+a:visited,
+a:active,
+a:link {
+  text-decoration: none;
+  color: var(--medium-gray);
+  cursor: pointer;
+}
+
+p {
+  color: var(--yellow);
+}
+
+.markup-dark {
+  color: var(--medium-gray);
+  font-weight: bolder;
+}
+
+.markup-light {
+  color: var(--yellow);
+  font-weight: bolder;
+}
