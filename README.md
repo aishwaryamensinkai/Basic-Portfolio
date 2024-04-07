@@ -8,10 +8,6 @@ This Basic Portfolio is a simple web-based tool built using React and Vite. It p
 - **Responsive Design**: The portfolio is designed to work seamlessly across various devices and screen sizes.
 - **User-friendly Interface**: Intuitive design makes it easy for visitors to navigate and explore your portfolio.
 
-## Demo
-
-Check out the live demo [Basic-Portfolio](https://your-portfolio-url.com/).
-
 ## Technologies Used
 
 - React
